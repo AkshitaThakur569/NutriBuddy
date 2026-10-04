@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "NutriBuddy",
+    "slug": "nutriBuddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "@react-native-vector-icons/ant-design",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#EAF7F5",
+          "image": "./assets/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.akshita_thakur.nutriBuddy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbdc3155-3f7b-4096-81d9-e1dbb33a9ea7"
+      }
+    }
+  }
+}
