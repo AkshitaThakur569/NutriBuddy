@@ -7,7 +7,6 @@ const ai = new GoogleGenAI({
 });
 
 export async function generateDietPlan(profile) {
-  console.log('Hii  i am inside API function')
   const prompt = `
 You are a friendly children's nutrition assistant.
 
